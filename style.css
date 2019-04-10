@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background-image: url("2.jpg");
+  text-align: center;
+  color:white;
+  font-family: cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position : center;
+
+  
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+h3 {
+  padding-top: 5px;
+  color: teal;
+}
+span {
+  color: aliceblue;
+}
+img {
+    
+      width: 200px;
+      border-radius: 100%;
+ }
+ a {
+   text-decoration: none;
+   font-family: cursive;
+   font-weight: 200px;
+   color: white;
+   
+ }
+
+input {
+  color: white;
+  font-family: cursive;
+}
+button {
+  background: teal;
+  margin: 10px;
+  padding: 5px;
+  padding-right:8px;
+  border: none;
+  border-radius: 15px;
+  color: aliceblue;
+  font-family: cursive;
+
+}
+#nav {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+  background: teal; 
+}
+#first {
+  margin-left: 80px; 
+}
+#abt {
+  padding-top: 10px;
+  font-size: 40px;
+}
+#abtParagraph {
+  padding-top:15%;
+}
+
+.link {
+  display: inline;
+  background: teal;  
+  margin-right: 185px; 
+}
+
+.link:hover {
+background: gray;   
+}
+
+#third {
+  text-align: left;
+  padding-left: 10px;
+  background-size: cover;
+  
+}
+#center {
+   color: teal;
+}
+/* fouth page */
+#fourth {
+  padding: 10px 0;
+  color: teal;
+}
+/* for the form */
+#form {
+  padding-top: 10px;
+  width:360px;
+  margin: 10px auto;
+  box-shadow:  0 0 3px rgba(0, 0, 0, 0);
+  text-align: left;
+  padding-left: 5px;
+  color: white; 
+}
+
+#gender {
+  background: none;
+  color:teal;
+}
+#select {
+  background: none;
+  font-family: cursive;
+  padding: 5px 7px;
+  color: teal;
+  font-weight: 600px;
+  border: 2px solid teal;
+
+}
+#submit {
+  border-radius: 5px;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  padding-left: 2px;
+  color: white;
+}
+.required {
+  border: none;
+  height:28px;
+  border-bottom: 3px solid teal;
+  width: 70%;
+  background:none;
+  box-sizing: border-box;
+  padding: 7px;
+  font-size: 15px;
+
+}
+
+.required:focus { 
+background: none; 
+}
